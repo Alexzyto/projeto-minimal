@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Passion+One:wght@400;700;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+:root {
+    --cor0: #06141B;
+    --cor1: #11212D;
+    --cor2: #253745;
+    --cor3: #4A5C6A;
+    --cor4: #9BA8AB;
+    --cor5: #CCD0CF;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Mukta", sans-serif;
+    --fonte4: "Zain", sans-serif;
+    --fonte5: "Gowun Dodum", sans-serif;
+    --fonte6: "Merriweather", serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: var(--fonte3);
+    background-image: url(imagens/temp\ 40\ Brown\ Vintage\ Retro\ Project\ History\ Presentation\ \(1\).png);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgb(246, 247, 248);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.39) ;
+}
+
+header > p.we {
+    background-color: ;
+    margin-top: 70px;
+    padding-top: 100px;
+    font-size: 3vw;
+    
+}
+header > p.ano {
+    padding-bottom: 110px;
+    font-size: 4vw
+    
+}
+header >p.design {
+    font-size: 2.5vw;
+    font-family: var(--fonte3);
+    padding-bottom: 5px;
+    
+}
+
+header > h1 {
+    
+    font-variant: small-caps;
+    font-family: var(--fonte3);
+    font-size: 12vw;
+    line-height: 1.2;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #06141B;
+    padding: 20px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+nav{
+    font-size: 18px;
+    font-family: var(--fonte4);
+    min-width: 300px;
+    padding: 10px 10px;
+    display: flex; /* Usa Flexbox para alinhar os itens em linha */
+    justify-content: space-around; /* Espalha os itens uniformemente */
+    padding: 0; /* Remove o padding padrão */
+    color: #06141B;
+    transition: transform 0.2s ease;
+    
+    
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+    color: #181d20;
+    transform: scale(1.3);
+}
+
+article.design > h2 {
+    color: #233842;
+    font-family: var(--fonte5);
+    font-size: 24px;
+    padding-top: 70px;
+    min-width: 300px;
+}
+
+article.design > h3 > img{
+    
+    max-width: 100%; /* Limita a largura máxima da imagem ao tamanho do contêiner */
+    width: 50px;
+    height: auto; /* Mantém a proporção da imagem */
+    padding-top: 10px ; /* Adiciona margem acima e abaixo da imagem */
+    
+}
+article.design > p {
+    max-width: 1000px;
+    padding-left: 70px ;
+    padding-right: 70px ;
+    color: #253745;
+    font-family: var(--fonte5);
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    min-width: 200px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+article > picture > img { 
+
+    
+    max-width: 375px; /* A imagem não excederá a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    padding-top: 10px;
+    padding-left:10px ;
+    padding-right:10px ;
+    
+}
+
+article.preto {
+    background-color: #23252b;
+    padding-bottom: 100px;
+    font-family: var(--fonte6);
+    
+    
+}
+
+article.preto > h1.esquerda {
+    padding-top: 100px;
+    padding-left: 40px;
+    color: aliceblue;
+    width: 40%;
+    text-align: left;
+    font-size: 30px;
+}
+
+article.preto > div.conteudo > p.esquerda {
+    color: #CCD0CF;
+    width: 60%;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: px;
+    font-family: var(--fonte5);
+    font-size: 18px;
+}
+
+article.preto > div.conteudo {
+    display: flex; /* Usando Flexbox para alinhar os itens */
+    align-items: flex-start; /* Alinha os itens no topo */
+    padding-left: 40px; /* Adiciona um pouco de espaço à esquerda */ }
+
+    article.preto > .conteudo > .imagens {
+    display: flex; /* Usando Flexbox para as imagens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
+    margin-left: 10px; /* Espaço entre o texto e as imagens */
+    }
+
+    article.preto > div.conteudo > .imagens img {
+        width: 100px; /* Largura fixa para as imagens */
+    }
+
+article.preto > p.fale-conosco{ 
+    background-color: whitesmoke;
+    border-radius: 30px;
+    color: #06141B;
+    font-family: var(--fonte3);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 60px;
+    padding: 2px;
+    margin-left: 60px;
+    width: 210px;
+}
+
+article > div.edmundo  {
+    padding: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+article > div.edmundo > q {
+    font-family: var(--fonte5);
+    padding: 10px 10px;
+}
+
+article > div.edmundo > p {
+    font-family: var(--fonte4);
+    padding: 10px 10px;
+}
+
+
+ p.fale-conosco a {
+    text-decoration: none;
+    color: #06141B;
+    padding: 20px;
+    font-weight: bold;
+ }
+
+p.fale-conosco a:hover {
+    text-decoration: underline;
+    color: #181d20;
+}
+footer {
+    font-family: var(--fonte1);
+    background-color: #23252b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+ footer a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    background-color: #a2adad;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    align-items: center;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: rgb(244, 252, 252);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
